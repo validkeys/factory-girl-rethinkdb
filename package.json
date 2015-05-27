@@ -6,8 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "@validkeys",
   "license": "ISC",
+  "keywords": ["node","factory-girl","testing","rethinkdb","factory-girl-rethinkdb"],
   "dependencies": {
     "factory-girl": "^1.5.0"
   }
