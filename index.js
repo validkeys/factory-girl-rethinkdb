@@ -6,7 +6,7 @@ RethinkAdapter.prototype.build = function (Model, props) {
 
 RethinkAdapter.prototype.save = function(doc, Model, cb) {
   doc.save()
-    .then(cb)
+    .then(function(){ cb(); })
     .catch(cb)
 }
 
